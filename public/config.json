@@ -17,7 +17,7 @@
             "inArguments": [
                 {
                   "email": "{{Contact.Default.EmailAddress}}",
-                  "to": "{{Contact.Attribute.TwilioV1.TwilioNumber}}" 
+                  "to": "{{Contact.Attribute.Mobile_Test.Mobile}}" 
                 }               
             ],
             "outArguments": [],
@@ -30,7 +30,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "e962d1d4-8b07-4e76-89be-ecd1f1423b6d",
+      "applicationExtensionKey": "c453585c-6906-4fe5-904c-79aebc101302",
        "save": {
            "url": "https://aldarsms.herokuapp.com/save",
             "verb": "POST",
